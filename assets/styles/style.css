@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Literata'; Serif;
+  background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.container{
+  width: 360px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+h2{
+  font-family: 'DM Serif Display'; serif;
+  font-size: 2.2em;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: rgb(55, 52, 62);
+}
+
+.container input{
+  font-family: 'Literata'; serif;
+  font-size: 1.1em;
+  color: #cb2d3e;
+
+  width: 100%;
+  border-style: none;
+  outline: none;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#red-done{
+  color: #cb2d3e;
+  display: inline-block;
+  width: auto;
+  background-color: inherit;
+  margin: 0;
+  opacity: 1.0;
+}
+
+.grey{
+  color: rgb(226, 230, 228);
+  opacity: 1.0;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  color: rgb(55, 52, 62);
+  height: 50px;
+  line-height: 50px;
+}
+
+li:nth-of-type(even){
+  background-color: rgb(246, 246, 246);
+}
+
+
+span{
+  color: rgb(240, 240, 240);
+  background-color: #cb2d3e;
+  width: 0px;
+  height: 50px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span{
+  width: 50px;
+  opacity: 1.0;
+}
+
+
+.done{
+  text-decoration: line-through;
+  color: rgb(150, 150, 150);
+}
